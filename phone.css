@@ -1,0 +1,45 @@
+/* Navigation */
+#navigation{
+    flex-direction: column;
+}
+#navigation ul li a{
+    font-size: 1rem;
+    padding: 6px;
+}
+/* Home-Section */
+#home{
+    overflow: hidden;
+    height: 260px;
+    flex-direction: column;
+}
+#home::before{
+    height: 450px;
+}
+#home p{
+    font-size: 12px;
+}
+#home h1{
+    font-size: 20px;
+}
+/* Service-section */
+.services{
+    flex-direction: column;
+}
+/* About Us */
+.boxa{
+    height: auto;
+    overflow:hidden;
+}
+
+/* Contact Us*/
+
+/* utility classes */
+.btn{
+    font-size: 13px;
+    padding: 0px 17px;
+}
+/* Footer */
+.copy{
+    text-align: center;
+    font-size: 1rem;
+}
